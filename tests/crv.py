@@ -1,4 +1,4 @@
-# Packet: Fields Has VLAN, Type, HDRLength, PayloadLength, PacketLength
+# Packet: Fields Has VLAN, Type, HDRLength, PayloadLength, PacketLength 
 import constraint
 p = constraint.Problem()
 p.addVariable('length', range(64, 1500))
